@@ -73,6 +73,7 @@ public class DeepGetPageIT {
      * Verifies that the sites console exists on author
      */
     @Test
+    @Ignore("CQ-4283853 ")
     public void testSitesAuthor() throws ClientException, IOException, URISyntaxException {
         verifyPageAndResources(adminAuthor, "/sites.html");
     }
